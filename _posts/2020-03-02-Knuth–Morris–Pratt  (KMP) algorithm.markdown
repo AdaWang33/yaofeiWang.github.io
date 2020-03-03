@@ -10,7 +10,7 @@ tags:
 - time complexity 
 ---
 
-Learnt from LeetCode question [Linked List in Binary Tree](<https://leetcode.com/problems/linked-list-in-binary-tree/>). A faster to to check string patten against a given text. 
+Learnt from LeetCode question [Linked List in Binary Tree](<https://leetcode.com/problems/linked-list-in-binary-tree/>). A faster way to check string patten against a given text. 
 
 First round, iterate through **pattern** to generate a new array for later use. Intuition behind this is to find same suffix and prefix so at the second round we don't go back in **given text** for duplicate substring.
 
