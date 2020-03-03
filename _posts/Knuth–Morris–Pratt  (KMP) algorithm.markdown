@@ -7,7 +7,7 @@ tags:
 - String
 - algorithm
 - KMP
-- time complexity
+- time complexity 
 ---
 
 Learnt from LeetCode question [Linked List in Binary Tree](<https://leetcode.com/problems/linked-list-in-binary-tree/>). A faster to to check string patten against a given text. 
