@@ -14,14 +14,13 @@ Learnt from LeetCode question [Linked List in Binary Tree](<https://leetcode.com
 
 First round, iterate through **pattern** to generate a new array for later use. Intuition behind this is to find same suffix and prefix so at the second round we don't go back in **given text** for duplicate substring.
 
-![img](<https://tva1.sinaimg.cn/large/00831rSTgy1gcgjhclzlkj30wm0flq96.jpg>)
-*credit to [Tushar Roy - Coding Made Simple](https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw)*
+![credit to [Tushar Roy - Coding Made Simple](https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw)](<https://tva1.sinaimg.cn/large/00831rSTgy1gcgjhclzlkj30wm0flq96.jpg>)
 
 
 
 Second round, we compare **given text** against **pattern** with the help of the generated array.
 
-![img](<https://tva1.sinaimg.cn/large/00831rSTgy1gcgjy8by4nj30zv0k2dna.jpg>)*credit to [Tushar Roy - Coding Made Simple](https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw)*
+![credit to [Tushar Roy - Coding Made Simple](https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw)](<https://tva1.sinaimg.cn/large/00831rSTgy1gcgjy8by4nj30zv0k2dna.jpg>)
 
 
 
