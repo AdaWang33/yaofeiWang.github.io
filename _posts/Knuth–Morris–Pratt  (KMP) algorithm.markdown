@@ -27,8 +27,6 @@ Second round, we compare **given text** against **pattern** with the help of the
 
 The total time complexity will be O(m+n), m being the length of **given text** and n being the length of **pattern**, which is a large improvement compared with the brute force way (O(m*n)).
 
-
-
 ---
 
 Other links for reference:
