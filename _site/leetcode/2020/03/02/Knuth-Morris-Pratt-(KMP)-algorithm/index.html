@@ -83,7 +83,7 @@
 <link href="/assets/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="瞎吃,广西," />
+  <meta name="keywords" content="String,algorithm,KMP,time complexity," />
 
 
 
@@ -111,19 +111,20 @@
 
 
 
-<meta name="description" content="去年十一月底老刘来波士顿找我，主要原因是我软磨硬泡要求人过来陪我两天，另外老刘毕业在家也蹲腻歪了，过来顺带领略一下北国风光。可惜来的时候实在太冷，波士顿一片萧瑟，真没什么好看的。吃了大龙虾我们就一块儿回国了。回国还是玩，只是加上了牙哥，目的地是广西。">
-<meta name="keywords" content="瞎吃, 广西">
+<meta name="description" content="Learnt from LeetCode question Linked List in Binary Tree. A faster to to check string patten against a given text.">
+<meta name="keywords" content="String, algorithm, KMP, time complexity">
 <meta property="og:type" content="article">
-<meta property="og:title" content="记2018广西旅游（上）">
-<meta property="og:url" content="http://localhost:4000/travel/2019/06/08/%E5%B9%BF%E8%A5%BF%E6%97%85%E6%B8%B8-%E4%B8%8A/">
+<meta property="og:title" content="Knuth–Morris–Pratt (KMP) algorithm">
+<meta property="og:url" content="http://localhost:4000/leetcode/2020/03/02/Knuth-Morris-Pratt-(KMP)-algorithm/">
 <meta property="og:site_name" content="Muscular Kangaroo">
-<meta property="og:description" content="去年十一月底老刘来波士顿找我，主要原因是我软磨硬泡要求人过来陪我两天，另外老刘毕业在家也蹲腻歪了，过来顺带领略一下北国风光。可惜来的时候实在太冷，波士顿一片萧瑟，真没什么好看的。吃了大龙虾我们就一块儿回国了。回国还是玩，只是加上了牙哥，目的地是广西。">
+<meta property="og:description" content="Learnt from LeetCode question Linked List in Binary Tree. A faster to to check string patten against a given text.">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/00831rSTgy1gcbfiqm10kj30u20u0e81.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/00831rSTgy1gcgjhclzlkj30wm0flq96.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/00831rSTgy1gcgjy8by4nj30zv0k2dna.jpg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="记2018广西旅游（上）">
-<meta name="twitter:description" content="去年十一月底老刘来波士顿找我，主要原因是我软磨硬泡要求人过来陪我两天，另外老刘毕业在家也蹲腻歪了，过来顺带领略一下北国风光。可惜来的时候实在太冷，波士顿一片萧瑟，真没什么好看的。吃了大龙虾我们就一块儿回国了。回国还是玩，只是加上了牙哥，目的地是广西。">
-<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/00831rSTgy1gcbfiqm10kj30u20u0e81.jpg">
+<meta name="twitter:title" content="Knuth–Morris–Pratt (KMP) algorithm">
+<meta name="twitter:description" content="Learnt from LeetCode question Linked List in Binary Tree. A faster to to check string patten against a given text.">
+<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/00831rSTgy1gcgjhclzlkj30wm0flq96.jpg">
 
 
 <script type="text/javascript" id="hexo.configurations">
@@ -156,7 +157,7 @@
 
 
 
-  <title>记2018广西旅游（上） | Muscular Kangaroo</title>
+  <title>Knuth–Morris–Pratt (KMP) algorithm | Muscular Kangaroo</title>
   
 
 
@@ -282,7 +283,7 @@
   
 
   <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://localhost:4000/travel/2019/06/08/%E5%B9%BF%E8%A5%BF%E6%97%85%E6%B8%B8-%E4%B8%8A/">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/leetcode/2020/03/02/Knuth-Morris-Pratt-(KMP)-algorithm/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yaofei Wang">
@@ -302,7 +303,7 @@
           <h1 class="post-title" itemprop="name headline">
           
           
-            记2018广西旅游（上）
+            Knuth–Morris–Pratt (KMP) algorithm
           
         </h1>
         
@@ -316,8 +317,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-08T10:08:32-04:00">
-                2019-06-08
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-02T12:24:32-05:00">
+                2020-03-02
               </time>
             
 
@@ -340,8 +341,8 @@
               
                 
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/category/#/travel" itemprop="url" rel="index">
-                    <span itemprop="name">travel</span>
+                  <a href="/category/#/LeetCode" itemprop="url" rel="index">
+                    <span itemprop="name">LeetCode</span>
                   </a>
                 </span>
 
@@ -391,64 +392,25 @@
 
 
 
-  <p>去年十一月底老刘来波士顿找我，主要原因是我软磨硬泡要求人过来陪我两天，另外老刘毕业在家也蹲腻歪了，过来顺带领略一下北国风光。可惜来的时候实在太冷，波士顿一片萧瑟，真没什么好看的。吃了大龙虾我们就一块儿回国了。回国还是玩，只是加上了牙哥，目的地是广西。</p>
+  <p>Learnt from LeetCode question <a href="https://leetcode.com/problems/linked-list-in-binary-tree/">Linked List in Binary Tree</a>. A faster to to check string patten against a given text.</p>
 
-<p>去广西，主要是为了嗦粉。去之前这个粉特指螺蛳粉。不过螺蛳粉确实好吃，常见的速食螺蛳粉里我最中意柳全，268g袋装那种，做的时候一般烧两锅水，一锅煮粉一锅煮酱包，最后碗里扣上花生酸笋。又香又美，吃的时候觉得自己灵魂的2/3应该是个广西人（另外1/3是贵州人）。</p>
+<p>First round, iterate through <strong>pattern</strong> to generate a new array for later use. Intuition behind this is to find same suffix and prefix so at the second round we don’t go back in <strong>given text</strong> for duplicate substring.</p>
 
-<p>我和牙哥以及老刘分别商量了一下，大家一拍即合，大致做了个行程，就来我家集合准备出发了。但这个出发有点迂回，因为苏州没有直达广西的飞机，我一看大概要转机八九趟，脑袋都大了，没有办法，只好从上海走。</p>
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTgy1gcgjhclzlkj30wm0flq96.jpg" alt="credit to [Tushar Roy - Coding Made Simple](https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw)" /></p>
 
-<p>决定来上海之后我和牙哥马上定了sleep no more的票。这个演出是我在论坛上看到的，被各路网友的描述弄得心驰神往：浸入式，360度环绕表演，超绝美丽大姐姐拉你进小黑屋一对一放电。这难道不就是天堂？况且来都来了，不搞点文艺活动那真的说不过去了。牙哥被我一番安利，连连称好，带着淫笑暂停了和我的对话，当下就点开微信公众号准备购入两张票子。随即就是长达十分钟的沉默。</p>
+<p>Second round, we compare <strong>given text</strong> against <strong>pattern</strong> with the help of the generated array.</p>
 
-<p>“票价最低640。“</p>
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTgy1gcgjy8by4nj30zv0k2dna.jpg" alt="credit to [Tushar Roy - Coding Made Simple](https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw)" /></p>
 
-<p>“呵呵，你们去吧。“老刘一声冷笑，抱住刚购入的皮卡丘限定版switch。</p>
+<p>The total time complexity will be O(m+n), m being the length of <strong>given text</strong> and n being the length of <strong>pattern</strong>, which is a large improvement compared with the brute force way (O(m*n)).</p>
 
-<p>我窘迫地看了一眼我的钱包，又看了一眼牙哥的头像。怎么回事，这个袋鼠怎么像是要劝我买票？</p>
+<hr />
 
-<p><img src="https://tva1.sinaimg.cn/large/00831rSTgy1gcbfiqm10kj30u20u0e81.jpg" alt="img" /></p>
+<p>Other links for reference:</p>
 
-<center>牙哥在劝我买票</center>
+<p><a href="https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm">wiki</a></p>
 
-<p>唉。算了算了，高雅艺术，谈啥钱不钱的。就当花钱给牙哥安利了。</p>
-
-<p>也不行啊。我都穷得要卖血了，还讲什么狗屁艺术。</p>
-
-<p>……</p>
-
-<p>这么反复纠结着（其间给牙哥打了钱，牙哥买好了票，并且票不可退），我们已经到了上海，老刘自己找地方玩了，至于我和牙哥，因为行程规划问题，下了高铁拖着行李箱就往麦金农旅馆跑。到的时候已经喘得不成人形了，在一群光鲜亮丽的男士女士里真是鸡立鹤群，更大的问题是我们迟到了，而看门的男士显然不准备让我们进去，于是两只鸡（拖着行李箱）站在队伍最前面，沉默等待下一场。内场音乐不断传出来，并且愈演愈烈，可能过了有二十分钟，终于在最激烈的地方停住。抬头一看，好好较，终于能进了！</p>
-
-<p>进去之后是个酒吧，站着等了一会儿，被带进了黑暗走廊，走廊完了是个小电梯。哦唷，这个在攻略里看到过的。我一喜，刚准备在脑里深度挖掘一下这个帖子，我就被赶出了电梯。</p>
-
-<p>黑，真黑。一片黑。我戴着眼镜，发的面具卡在眼镜上，要卡在正中间也挺好，可惜要么挡着上半拉，要么挡住整个眼。上帝在我眼前遮住帘不过如此。我边骂娘边单手扶眼镜，祈求过一会儿面具在我脸上能找到属于自己的位置。可惜没有，直到结束，我的眼镜和面具还在互相殴打。当下我只能加入同样带着白鸟嘴面具的人群，跌跌撞撞往光里走。</p>
-
-<p>勉强看出来是个走廊，上面是霓虹灯管字，“伊乐园”。伊字少了一横，怪吓人的。扶着眼镜走了两圈，没人啊。其他白面具们大概也意识到主戏这会儿不在这里，纷纷跑向楼梯。我有样学样跑楼梯，人群浩大，恍惚中以为自己在消防演练。</p>
-
-<p>下了一层，挤在人群里，正好看到蓝裙子女人慌慌张张从红女巫桌上离开。眼前一亮，心想可算是逮到演员了。赶紧跟上。这么着跟了有一轮半，期间把蓝裙子拉一对一的时刻都记住了，紧锣密鼓跟着，热切眼神交流，可惜镜片太厚，可能阻挡了一半火花。又一次拉人进小黑屋，蓝裙子超人群伸出了手，幸运观众没反应过来，手停在半空中三秒，我窃喜，赶紧送上手，蓝裙子愣了一下，反手抽出来，坚定朝刚才那位幸运观众伸了过去。</p>
-
-<p>我简直气疯了，贴着一个支线人物走了一轮多我容易吗？一对一也不给一个？啊？啊？？</p>
-
-<p>气坏了，当即我就拍拍屁股走人，当然了，小黑屋咱也进不了，确实只能走人。换红女巫好了，红女巫真好看。</p>
-
-<p>这么想的人不只我一个，我摸到红女巫那儿的时候，女巫身边是潮水般乌央乌央的白面具，退下又挤上来。我远远地听女巫唱my funny valentine，声音从性感的女低音慢慢变成奇异的男女混声，越来越低，越来越沙哑，突然女巫爆发一阵大笑，激烈的音乐起。一阵头皮发麻。</p>
-
-<p>女巫一对一后人群散了，我误打误撞进了一个迪厅模样的房间。镁光灯以极缓的频率闪一下，勉强看到演员们定格成了固定的姿势，镁光灯又闪，又是新的姿势。镁光灯频闪缓缓加快，可观察到的动作也变快了，在热烈的背景音下，眼前仿佛在进行逐帧播放。频闪越来越快，帧数也越来越高，明显能看出人物的下一步动作了。戴着羊头的演员（可能是指撒旦）跳到桌上狂舞，其余的演员也神经质又热烈地舞动。到音乐最激烈处，一切停了。</p>
-
-<p>太邪性了。一直到最后的晚餐，麦考白被吊死，终于发现演出结束了，我还没缓过来。</p>
-
-<p>牙哥也是一副欲言又止的样子。“你咋样？“我问。</p>
-
-<p>“我一进去就被一对一了“，牙哥捂着胸口，“那护士和神经病一样和我互动，操，可吓死我了。“</p>
-
-<p>……</p>
-
-<p>我压住把牙哥打一顿的心情，决定晚点再和她说我主动伸手被拒绝的事儿。</p>
-
-<p>不过演出结束已经很晚了，虽说还是想打她，毕竟先去酒店才是正事。我和牙哥于是又拉着行李箱，在初冬的上海大街上狂奔，果不其然还是错过了去酒店的末班车。斥巨资打了的，一点多的时候总算赶到了酒店，喊老刘把我们接上去。兵荒马乱地洗漱了一通。</p>
-
-<p>第二天早上7点多的飞机去南宁。广西，我们终于要来了（握拳）！</p>
-
-<p><a href="https://adawang33.github.io/yaofeiWang.github.io/travel/2019/06/08/%E5%B9%BF%E8%A5%BF%E6%97%85%E6%B8%B8-%E4%B8%8B/">广西见闻点这里</a></p>
-
+<p><a href="https://www.solutionfactory.in/posts/Knuth-Morris-Pratt-Substring-Search-Algorithm-with-Java-Example">Solution_Factory</a></p>
 
 
       
@@ -480,10 +442,16 @@
         <div class="post-tags">
           
             
-            <a href="/tag/#/%E7%9E%8E%E5%90%83" rel="tag"># 瞎吃</a>
+            <a href="/tag/#/String" rel="tag"># String</a>
           
             
-            <a href="/tag/#/%E5%B9%BF%E8%A5%BF" rel="tag"># 广西</a>
+            <a href="/tag/#/algorithm" rel="tag"># algorithm</a>
+          
+            
+            <a href="/tag/#/KMP" rel="tag"># KMP</a>
+          
+            
+            <a href="/tag/#/time%20complexity" rel="tag"># time complexity</a>
           
         </div>
       
@@ -499,15 +467,15 @@
         <div class="post-nav" id="post-nav-id">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/travel/2019/06/08/%E5%B9%BF%E8%A5%BF%E6%97%85%E6%B8%B8-%E4%B8%8B/" rel="next" title="记2018广西旅游（下）">
-                <i class="fa fa-chevron-left"></i> 记2018广西旅游（下）
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/travel/2019/06/08/%E5%B9%BF%E8%A5%BF%E6%97%85%E6%B8%B8-%E4%B8%8B/" rel="prev" title="记2018广西旅游（下）">
+                记2018广西旅游（下） <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
