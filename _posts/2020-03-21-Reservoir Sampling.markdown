@@ -77,7 +77,7 @@ The k here is 1, which will be a special case of Reservoir Sampling algorithm.
 
 **Code:**
 
-```Java
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
