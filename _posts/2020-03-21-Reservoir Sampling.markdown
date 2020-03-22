@@ -123,7 +123,7 @@ class Solution {
 
 ---
 
-###### Other links for reference:
+##### Other links for reference:
 
 [wiki](<https://en.wikipedia.org/wiki/Reservoir_sampling>)
 
