@@ -51,7 +51,7 @@ Choose `k` entries from `n` numbers. Make sure each number is selected with the 
 
 
 
-#####As to This Problem:
+##### As to This Problem:
 
 **Description:**
 
