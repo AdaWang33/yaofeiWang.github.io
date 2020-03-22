@@ -123,11 +123,11 @@ class Solution {
 
 ---
 
-Other links for reference:
+###### Other links for reference:
 
 [wiki](<https://en.wikipedia.org/wiki/Reservoir_sampling>)
 
-[Youtube: Reservoir Sampling](<<https://www.youtube.com/watch?v=A1iwzSew5QY>>)
+[Youtube: Reservoir Sampling](<https://www.youtube.com/watch?v=A1iwzSew5QY>)
 
 [Brief explanation for Reservoir Sampling](<https://leetcode.com/problems/linked-list-random-node/discuss/85659/Brief-explanation-for-Reservoir-Sampling>)
 
