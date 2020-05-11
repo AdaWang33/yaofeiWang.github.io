@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Muscular Kangaroo
+title: Macho Kangaroo
 subtitle:
 description:
 author: Yaofei Wang
@@ -380,7 +380,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname:
   count: true
   # hide comments (visitors need to click to load the comments)

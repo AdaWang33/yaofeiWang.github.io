@@ -6,6 +6,7 @@ categories:
 tags: 
 - probability
 - algorithm
+comments: true
 ---
 
 Learnt from LeetCode question [Linked List Random Node](<https://leetcode.com/problems/linked-list-random-node/>). 
