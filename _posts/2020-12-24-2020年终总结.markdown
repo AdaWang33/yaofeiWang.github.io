@@ -30,19 +30,11 @@ comments: true
 - 备忘今天吃了啥
 - 偶尔写个随笔
 
-![https://tva1.sinaimg.cn/large/0081Kckwly1glzyacnq4dj31400u0n1t.jpg](https://tva1.sinaimg.cn/large/0081Kckwly1glzyacnq4dj31400u0n1t.jpg)
-检查我给植物浇水的情况
+![检查我给植物浇水的情况](https://tva1.sinaimg.cn/large/0081Kckwly1glzyacnq4dj31400u0n1t.jpg)![备忘今天吃了啥](https://tva1.sinaimg.cn/large/0081Kckwly1glzyakehp5j31400u0grz.jpg)![偶尔写个随笔](https://tva1.sinaimg.cn/large/0081Kckwly1glzyaiy9mrj31400u0b29.jpg)
 
-![https://tva1.sinaimg.cn/large/0081Kckwly1glzyakehp5j31400u0grz.jpg](https://tva1.sinaimg.cn/large/0081Kckwly1glzyakehp5j31400u0grz.jpg)
-备忘今天吃了啥
-
-![https://tva1.sinaimg.cn/large/0081Kckwly1glzyaiy9mrj31400u0b29.jpg](https://tva1.sinaimg.cn/large/0081Kckwly1glzyaiy9mrj31400u0b29.jpg)
-偶尔写个随笔
 
 另一个页面，是我个人的书影音记录，因为是从豆瓣导出，所以贪方便还是分了三个数据库。
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glzyacnq4dj31400u0n1t.jpg)
-
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glzyaf3rtij31400u0n4e.jpg)
+![](https://tva1.sinaimg.cn/large/0081Kckwly1glzyacnq4dj31400u0n1t.jpg)![](https://tva1.sinaimg.cn/large/0081Kckwly1glzyaf3rtij31400u0n4e.jpg)
 
 图书这个【需要看的教科书】视图是通过筛选“没读”的状态和“教科书”的tag来达成的，要是愿意，完全可以换成日历的视图，配上哪里都能加的提醒，达到Google calendar的功能（比如人为制造一些due出来提醒自己赶紧念书）。
 
