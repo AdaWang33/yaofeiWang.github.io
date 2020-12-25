@@ -26,30 +26,25 @@ comments: true
 直到上个月我还在用印象笔记，用网页剪藏插件和标签来管理“稍后阅读”和”备用”。其实挺好使，但Notion实在是强了，数据库的【视图】切换加上自定义筛选，搞得我心动不已。随便展示下最近我天天用的两个页面截图。
 
 下面三张其实是一个数据库，通过换视图和筛选属性产生不同效果，快速达成三个功能
-
 - 检查我给植物浇水的情况
 - 备忘今天吃了啥
 - 偶尔写个随笔
 
-![2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/2167925B-A3AF-4D62-9CC6-241628532541.png](2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/2167925B-A3AF-4D62-9CC6-241628532541.png)
-
+![https://tva1.sinaimg.cn/large/0081Kckwly1glzyacnq4dj31400u0n1t.jpg](https://tva1.sinaimg.cn/large/0081Kckwly1glzyacnq4dj31400u0n1t.jpg)
 检查我给植物浇水的情况
 
-![2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/7A1C5A53-17BF-49BE-A7E2-221618FD6F87.png](2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/7A1C5A53-17BF-49BE-A7E2-221618FD6F87.png)
-
+![https://tva1.sinaimg.cn/large/0081Kckwly1glzyakehp5j31400u0grz.jpg](https://tva1.sinaimg.cn/large/0081Kckwly1glzyakehp5j31400u0grz.jpg)
 备忘今天吃了啥
 
-![2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/3F407DB0-FE0D-4593-AF95-852F5CE308A2.png](2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/3F407DB0-FE0D-4593-AF95-852F5CE308A2.png)
-
+![https://tva1.sinaimg.cn/large/0081Kckwly1glzyaiy9mrj31400u0b29.jpg](https://tva1.sinaimg.cn/large/0081Kckwly1glzyaiy9mrj31400u0b29.jpg)
 偶尔写个随笔
 
 另一个页面，是我个人的书影音记录，因为是从豆瓣导出，所以贪方便还是分了三个数据库。
+![](https://tva1.sinaimg.cn/large/0081Kckwly1glzyacnq4dj31400u0n1t.jpg)
 
-![2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/B7CA1F44-2D93-4576-8C3C-94111E4A7080.png](2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/B7CA1F44-2D93-4576-8C3C-94111E4A7080.png)
+![](https://tva1.sinaimg.cn/large/0081Kckwly1glzyaf3rtij31400u0n4e.jpg)
 
-![2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/CE535268-34D9-444B-9E95-37B5B33A8214.png](2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%2090446b5915f9410482237ed6723d564c/CE535268-34D9-444B-9E95-37B5B33A8214.png)
-
-右边图书这个【需要看的教科书】视图是通过筛选“没读”的状态和“教科书”的tag来达成的，要是愿意，完全可以换成日历的视图，配上哪里都能加的提醒，达到Google calendar的功能（比如人为制造一些due出来提醒自己赶紧念书）。
+图书这个【需要看的教科书】视图是通过筛选“没读”的状态和“教科书”的tag来达成的，要是愿意，完全可以换成日历的视图，配上哪里都能加的提醒，达到Google calendar的功能（比如人为制造一些due出来提醒自己赶紧念书）。
 
 据说Notion数据量大了容易卡，我还没感觉到这个问题，也许是因为我用它来实现的功能还比较基础。除此之外，我暂时一切满意。Notion高阶玩法很多，关联数据库之类的教程B站也有不少，如果发挥一些想象力，肯定还能搞出来更好玩的东西。
 
